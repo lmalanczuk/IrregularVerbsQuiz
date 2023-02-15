@@ -9,7 +9,7 @@ namespace IrregularVerbsQuiz
         static void Main(string[] args)
         {
             
-            Dictionary<string, string[]> verbs = LoadVerbsFromFile(@"C:\\Users\\lmala\\OneDrive\\Pulpit\\Irregular_verbs.txt");
+            Dictionary<string, string[]> verbs = LoadVerbsFromFile(@"Irregular_verbs.txt");
 
             
             List<KeyValuePair<string, string[]>> quizVerbs = GetQuizVerbs(verbs);
